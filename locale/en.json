@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Answer card",
+    "description": "Shows a floating card with the question and its options whenever any session is waiting for your answer, so you can reply without switching sessions.",
+    "detail": "docs/DETAIL.md"
+  }
+}
