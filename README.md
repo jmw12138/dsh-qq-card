@@ -22,7 +22,7 @@ DeepSeek Harness 插件。任何会话在等待 `ask_user_question` 回答时，
 ```bash
 # 1) 把它放到 profile 的 node_modules（桌面端只能手工装，CLI 会报
 #    profile "desktop" is managed exclusively by the Electron application）
-cp -r dsh-qq-card "C:/Users/PC/.dsh/profiles/desktop/node_modules/"
+cp -r dsh-qq-card "$HOME/.dsh/profiles/desktop/node_modules/"
 
 # 2) profile package.json：dependencies 加 "dsh-qq-card": "0.1.0"，
 #    dsh.profile.bundles 里追加 "dsh-qq-card"
